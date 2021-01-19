@@ -1,19 +1,25 @@
 <?php
-/*
-  $Id: alipay.php 12/01/2021  $
- 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-  Copyright (c) 2008 osCommerce
-  Released under the GNU General Public License
+/**
+*  alipay.php 12/01/2021
+*
+*  osCommerce, Open Source E-Commerce Solutions
+*  http://www.oscommerce.com
+*  Copyright (c) 2008 osCommerce
+*  Released under the GNU General Public License
+*	
+* @author Ismail Sanan <ismail@carmimari.com>
+* @author Francesco Rossi <fra@ontc.eu>
+*
+* https://github.com/ONTC-Group/Alipay-Module
 
-  alipay for osCommerce designed by Ismail Sanan , Francesco Rossi
+*/
+////////////Page function description////////////////
 
-*////////////Page function description////////////////
 //This page can be tested on the local computer
 //This page is called the "return page", which is synchronously called by the Alipay server, and can be regarded as a prompt information page after the payment is completed, such as "Your order, how much has been successfully paid".
 //Can be put into HTML and other beautification page code, database update program code after the order transaction is completed
 //The page debugging tool can use the breakpoint debugging tool Zend Studio owned by PHP, or use the text writing function log_result, which has been turned off by default, see the function return_verify in alipay_notify.php
+
 //////////////////////////////////////////////////////
 
 require_once("alipay_notify.php");

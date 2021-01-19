@@ -1,13 +1,17 @@
 <?php
-/*
-  $Id: alipay.php  12/01/2021 $
+/**
+*  alipay.php 12/01/2021
+*
+*  osCommerce, Open Source E-Commerce Solutions
+*  http://www.oscommerce.com
+*  Copyright (c) 2008 osCommerce
+*  Released under the GNU General Public License
+* 
+* @author Ismail Sanan <ismail@carmimari.com>
+* @author Francesco Rossi <fra@ontc.eu>
+*
+* https://github.com/ONTC-Group/Alipay-Module
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-  Copyright (c) 2008 osCommerce
-  Released under the GNU General Public License
-
-  alipay for osCommerce designed by Ismail Sanan , Francesco Rossi
 */
 
 require_once("alipay_service.php");

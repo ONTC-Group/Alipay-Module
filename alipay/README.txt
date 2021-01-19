@@ -27,3 +27,8 @@
 8- insert between the double quotations " " Path of the checkout_success.php
 
 9- insert between the double quotations " " The Website URL
+
+
+##Contact us:
+email:  - fra[at]ontc.eu
+	-ismail[at]carmimari.com
